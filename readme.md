@@ -15,7 +15,7 @@ npm run build
 babel 在 7.4.0 版本后不再使用 @babel/polyfill 的方式进行 
 polyfill，而是改用 "core-js/stable" 和 "regenerator-runtime/runtime" 的方式。
 
-7.4.0 版本以前用法：
+### 7.4.0 版本以前用法：
 
 corejs 的版本只能使用 2 版。
 
@@ -42,7 +42,7 @@ corejs 的版本只能使用 2 版。
 }
 ```
 
-7.4.0 版本以后版本用法：
+### 7.4.0 版本以后版本用法：
 
 corejs@3 以后不再使用 @babel/polyfill 的方式进行 polyfill， 正确用法应该是：
 
