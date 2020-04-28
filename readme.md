@@ -1,3 +1,9 @@
+# 使用 babel
+首先要安装babel环境：
+```bash
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+```
+
 # 将 js 文件用 babel 编译
 ```bash
 npm run babel

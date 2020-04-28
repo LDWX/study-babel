@@ -11,11 +11,20 @@
           "safari": "11.1"
         },
         "corejs": "3",
-        "useBuiltIns": "usage"
+        "useBuiltIns": "usage",
+        "loose": true
+
       }
     ]
   ],
   "plugins": [
-    "./plugins/myplugin.js"
+    [
+      "./plugins/myplugin.js",
+      {
+        "loose": true
+      }
+
+    ],
+    "@babel/transform-classes"
   ]
 }

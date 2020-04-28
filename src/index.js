@@ -22,3 +22,16 @@ changeName("wangya")
 console.log(getName())
 
 console.log(name)
+
+console.log("end");
+
+(() => {
+  console.log("this is arrow")
+})();
+
+
+class Person {
+  constructor() {
+    this.name = "shenxin"
+  }
+}
